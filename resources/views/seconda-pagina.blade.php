@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
     <!-- BOOTSTRAP -->
@@ -8,7 +8,7 @@
         crossorigin='anonymous' />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage laravel primi passi</title>
+    <title>Seconda pagina</title>
 </head>
 
 <header>
@@ -28,8 +28,8 @@
 </header>
 
 <body>
-    <h1>Hello World!</h1>
-    <h2>{{$testo}}</h2>
+
+    <h1>Benvenuto nella seconda pagina</h1>
 </body>
 
 </html>
