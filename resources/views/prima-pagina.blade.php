@@ -15,13 +15,13 @@
     <nav>
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Homepage</a>
+                <a class="nav-link active" aria-current="page" href={{ route("home") }}>Homepage</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/prima-pagina">Prima Pagina</a>
+                <a class="nav-link active" aria-current="page" href={{ route("prima-pagina") }}>Prima Pagina</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/seconda-pagina">Seconda Pagina</a>
+                <a class="nav-link active" aria-current="page" href={{ route("seconda-pagina") }}>Seconda Pagina</a>
             </li>
         </ul>
     </nav>
